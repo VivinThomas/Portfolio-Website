@@ -1,4 +1,19 @@
 // ...........................................................
+// Preloader
+// ...........................................................
+
+var loader = document.getElementById("preloader");
+// window.addEventListener("load", function(){
+//   loader.style.display = "none";
+// })
+
+// Add a delay of 2 seconds (2000 milliseconds) before hiding the preloader
+setTimeout(function() {
+    loader.style.display = "none";
+}, 1700);
+
+
+// ...........................................................
 // To Change Text at every window relaoad
 // ...........................................................
 
@@ -24,13 +39,13 @@ window.onload = function() {
   };
   
 // ...........................................................
-// To Change Text at every window relaoad
+// types my name at every window relaoad
 // ...........................................................
 
 document.addEventListener('DOMContentLoaded', function(){
     // Your name to type
     var name = "Vivin Thomas";
-    var typingSpeed = 300; // Typing speed in milliseconds
+    var typingSpeed = 630; // Typing speed in milliseconds
   
     // Get the element where you want to display the typing effect
     var nameElement = document.getElementById('typingName');
