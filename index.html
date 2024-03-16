@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vivin Thomas | Portfolio Website</title>
+  <link rel="icon" href="My_Photo.png" type="image/x-icon" class="title-icon">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
 </head>
@@ -47,11 +48,11 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img class="profile_pic" src="My_Photo.jpeg" alt="Vivin Thomas profile picture" />
+      <img class="profile_pic" src="My_Photo.png" alt="Vivin Thomas profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Vivin Thomas</h1>
+      <h1 class="title" id="typingName"></h1>
       <p class="section__text__p2">Data Enthusiast</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('Resume -Vivin Thomas.pdf')">
@@ -98,9 +99,14 @@
         </div>
         <div class="text-container">
           <p class="about-me-text">
-            As a dedicated life-long learner, I am an Optimistic & vibrant individual keen towards Data.
-            I am always eager to learn & build new and ready to internalize and
-            implement all that I can absorb in. Blending my love of technology and data.
+            As a dedicated life-long learner, I embody an optimistic and vibrant spirit, deeply passionate about data.
+            I thrive on continuous learning, constantly seeking to expand my knowledge and skills in the realm of data.
+            Eager to internalize and implement new insights, I am committed to absorbing all that I encounter. My
+            enthusiasm for technology and data seamlessly intertwines, driving me to explore innovative avenues and
+            solutions.
+            <br><br>
+            <span id="changing-text" style="color: rgb(85, 85, 85); font-style: italic;">And let's be real, I'm so
+              data-driven, even my dreams have pie charts!</span>
           </p>
         </div>
       </div>
@@ -276,7 +282,7 @@
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
 
-    <!-- /* ........................................................... */
+  <!-- /* ........................................................... */
 /* ........................................................... */
 /* ........................................................... */ -->
 
@@ -352,55 +358,55 @@
 
 
 
-<section id="Certificates">
-  <p class="section__text__p1">Take a look</p>
-  <h1 class="title">Certificates</h1>
-  <div class="container">
-    <div class="slider-wrapper">
-      <button id="prev-slide" class="slide-button material-symbols-rounded">←
-      </button>
-      <ul class="image-list">
-        <a href="https://www.credly.com/badges/9913502a-33a3-420f-9d6e-2b1e3ad9c440/linked_in_profile" class="href">
-          <img class="image-item" src="Certificates/Google - DA Badge.png" alt="img-1" />
-        </a>
-        <a href="" class="href">
-          <img class="image-item" src="Certificates/Google Data Analytics Certificate.png" alt="img-2" />
-        </a>
-        <a href="" class="href">
-          <img class="image-item" src="Certificates/Google Data Science Certificate.png" alt="img-3" />
-        </a>
-        <a href="https://www.credly.com/badges/65e5824d-cea3-449b-9ab5-b9bba54251cc/linked_in_profile" class="href">
-          <img class="image-item" src="Certificates/AWS - Cloud Foundation.png" alt="img-4" />
-        </a>
-        <a href="https://www.credly.com/badges/ce9346ad-580a-4423-86ec-86dac29bc3ee/linked_in_profile" class="href">
-          <img class="image-item" src="Certificates/AWS - ML Foundation.png" alt="img-5" />
-        </a>
-        <a href="https://drive.google.com/file/d/12FrKHQJ-oF8oMTHupV3832XUgA2-WJLB/view?usp=drivesdk" class="href">
-          <img class="image-item" src="Certificates/Google - Digital Marketing.png" alt="img-6" />
-        </a>
-        <a href="https://drive.google.com/file/d/1vfo_ii2L1KCG7LmgDOsaFhB8lCs98hOf/view?usp=sharing" class="href">
-          <img class="image-item" src="Certificates/CCNA 1 Certificate.png" alt="img-7" />
-        </a>
-        <a href="https://drive.google.com/file/d/1wJ6ZKZQShq06vE8zpkznV84H_2jyoZNo/view?usp=sharing" class="href">
-          <img class="image-item" src="Certificates/CCNA 2 Certificate.png" alt="img-8" />
-        </a>
-        <a href="https://drive.google.com/file/d/1rLlaQwZCvGA5GYwxIypibwrAe8Snk3Lk/view?usp=sharing" class="href">
-          <img class="image-item" src="Certificates/Introduction to IOT.png" alt="img-9" />
-        </a>
-        <a href="https://drive.google.com/file/d/1yEmg7afp0yCoC7ls0p5m4Zd0Dhi5q6oK/view?usp=sharing" class="href">
-          <img class="image-item" src="Certificates/C++ Certificate.png" alt="img-10" />
-        </a>
-      </ul>
-      <button id="next-slide" class="slide-button material-symbols-rounded">→
-      </button>
-    </div>
-    <div class="slider-scrollbar">
-      <div class="scrollbar-track">
-        <div class="scrollbar-thumb"></div>
+  <section id="Certificates">
+    <p class="section__text__p1">Take a look</p>
+    <h1 class="title">Certificates</h1>
+    <div class="container">
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">←
+        </button>
+        <ul class="image-list">
+          <a href="https://www.credly.com/badges/9913502a-33a3-420f-9d6e-2b1e3ad9c440/linked_in_profile" class="href">
+            <img class="image-item" src="Certificates/Google - DA Badge.png" alt="img-1" />
+          </a>
+          <a href="" class="href">
+            <img class="image-item" src="Certificates/Google Data Analytics Certificate.png" alt="img-2" />
+          </a>
+          <a href="" class="href">
+            <img class="image-item" src="Certificates/Google Data Science Certificate.png" alt="img-3" />
+          </a>
+          <a href="https://www.credly.com/badges/65e5824d-cea3-449b-9ab5-b9bba54251cc/linked_in_profile" class="href">
+            <img class="image-item" src="Certificates/AWS - Cloud Foundation.png" alt="img-4" />
+          </a>
+          <a href="https://www.credly.com/badges/ce9346ad-580a-4423-86ec-86dac29bc3ee/linked_in_profile" class="href">
+            <img class="image-item" src="Certificates/AWS - ML Foundation.png" alt="img-5" />
+          </a>
+          <a href="https://drive.google.com/file/d/12FrKHQJ-oF8oMTHupV3832XUgA2-WJLB/view?usp=drivesdk" class="href">
+            <img class="image-item" src="Certificates/Google - Digital Marketing.png" alt="img-6" />
+          </a>
+          <a href="https://drive.google.com/file/d/1vfo_ii2L1KCG7LmgDOsaFhB8lCs98hOf/view?usp=sharing" class="href">
+            <img class="image-item" src="Certificates/CCNA 1 Certificate.png" alt="img-7" />
+          </a>
+          <a href="https://drive.google.com/file/d/1wJ6ZKZQShq06vE8zpkznV84H_2jyoZNo/view?usp=sharing" class="href">
+            <img class="image-item" src="Certificates/CCNA 2 Certificate.png" alt="img-8" />
+          </a>
+          <a href="https://drive.google.com/file/d/1rLlaQwZCvGA5GYwxIypibwrAe8Snk3Lk/view?usp=sharing" class="href">
+            <img class="image-item" src="Certificates/Introduction to IOT.png" alt="img-9" />
+          </a>
+          <a href="https://drive.google.com/file/d/1yEmg7afp0yCoC7ls0p5m4Zd0Dhi5q6oK/view?usp=sharing" class="href">
+            <img class="image-item" src="Certificates/C++ Certificate.png" alt="img-10" />
+          </a>
+        </ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">→
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
   <!-- /* ........................................................... */

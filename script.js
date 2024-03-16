@@ -1,3 +1,59 @@
+// ...........................................................
+// To Change Text at every window relaoad
+// ...........................................................
+
+window.onload = function() {
+    // Array of texts to display
+    var texts = [
+
+         "Data analysts: turning coffee into queries and spreadsheets into stories since... well, forever.",
+         "Data analysts: because who else would find joy in cleaning messy data?",
+         "Data analysts: we make Excel spreadsheets exciting... at least, that's what we tell ourselves.",
+         "Data analysts: where every day is a 'data-riffic' adventure.",
+         "Data analysts: because even numbers need a little love and attention.",
+         "I am fluent in Excel, SQL, and sarcasm.",
+         "Data analysts: because 'data wrangler' sounds cooler than 'spreadsheet jockey.'",
+         "Data analysts: because life's too short to manually enter data.",
+         "Data analysts: we're like wizards, but instead of wands, we wield pivot tables."];
+
+    // Get a random index from the texts array
+    var randomIndex = Math.floor(Math.random() * texts.length);
+
+    // Set the text to be displayed
+    document.getElementById("changing-text").textContent = texts[randomIndex];
+  };
+  
+// ...........................................................
+// To Change Text at every window relaoad
+// ...........................................................
+
+document.addEventListener('DOMContentLoaded', function(){
+    // Your name to type
+    var name = "Vivin Thomas";
+    var typingSpeed = 300; // Typing speed in milliseconds
+  
+    // Get the element where you want to display the typing effect
+    var nameElement = document.getElementById('typingName');
+  
+    // Function to add typing effect
+    function typeWriter(text, i) {
+      if (i < text.length) {
+        nameElement.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(function() {
+          typeWriter(text, i);
+        }, typingSpeed);
+      }
+    }
+  
+    // Start typing effect
+    typeWriter(name, 0);
+  });
+
+// ...........................................................
+// MAIN SCRIPT
+// ...........................................................
+
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
