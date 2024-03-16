@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivin Thomas | Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+
+<!-- ################## -->
+<!-- 1st Header - Main -->
+<!-- ################## -->
+
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Vivin Thomas</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#Certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Vivin Thomas</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img class="profile_pic" src="My_Photo.jpeg" alt="Vivin Thomas profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Vivin Thomas</h1>
+      <p class="section__text__p2">Data Enthusiast</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('Resume -Vivin Thomas.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/vivinthomas02/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/VivinThomas'" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ################## -->
+  <!-- About Me -->
+  <!-- ################## -->
+
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <!-- <div class="section__pic-container">
+        <img src="My_Photo_2.jpeg" alt="Profile picture" class="about-pic" />
+      </div> -->
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>NIL <br /> </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech. Bachelors Degree<br />M.Sc. Masters Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="about-me-text">
+            As a dedicated life-long learner, I am an Optimistic & vibrant individual keen towards Data.
+            I am always eager to learn & build new and ready to internalize and
+            implement all that I can absorb in. Blending my love of technology and data.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+
+  <!-- ################## -->
+  <!-- My Skills -->
+  <!-- ################## -->
+
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Data Analysis</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Excel</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tableau</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Domain Knowledge</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Statistics</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Additional Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Linux</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3></h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+
+  <!-- ################## -->
+  <!-- My Projects-->
+  <!-- ################## -->
+
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="House Sales Dashboard.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">House Sales Analysis</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="London Bike Ride Dashboard.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">London Bike Ride Analysis</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="British Airways Dashboard.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">British Airways Review</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="European Superstore Sales.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">European Superstore Sales Analysis</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+    <!-- /* ........................................................... */
+/* ........................................................... */
+/* ........................................................... */ -->
+
+  <!-- <section id="Certificates">
+    <p class="section__text__p1">Take a look</p>
+    <h1 class="title">Certificates</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div class="container">
+      <div class="slide">
+        <div class="item" style="background-image: url(Google\ Data\ Analytics\ Certificate.png);">
+          <div class="content">
+            <div class="name">Google Data Science </div>
+            <div class="des"></div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+          <div class="content">
+            <div class="name"> Data Analytics</div>
+            <div class="des"></div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+          <div class="content">
+            <div class="name">Iceland</div>
+            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
+          <div class="content">
+            <div class="name">Australia</div>
+            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://i.ibb.co/jTQfmTq/img5.jpg);">
+          <div class="content">
+            <div class="name">Netherland</div>
+            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(https://i.ibb.co/RNkk6L0/img6.jpg);">
+          <div class="content">
+            <div class="name">Ireland</div>
+            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+            <button class="button1">See More</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+    </div>
+  </section> -->
+
+  <!-- /* ........................................................... */
+/* ........................................................... */
+/* ........................................................... */ -->
+
+
+  <!-- ################## -->
+  <!-- My Certificates -->
+  <!-- ################## -->
+
+
+
+<section id="Certificates">
+  <p class="section__text__p1">Take a look</p>
+  <h1 class="title">Certificates</h1>
+  <div class="container">
+    <div class="slider-wrapper">
+      <button id="prev-slide" class="slide-button material-symbols-rounded">←
+      </button>
+      <ul class="image-list">
+        <a href="https://www.credly.com/badges/9913502a-33a3-420f-9d6e-2b1e3ad9c440/linked_in_profile" class="href">
+          <img class="image-item" src="Certificates/Google - DA Badge.png" alt="img-1" />
+        </a>
+        <a href="" class="href">
+          <img class="image-item" src="Certificates/Google Data Analytics Certificate.png" alt="img-2" />
+        </a>
+        <a href="" class="href">
+          <img class="image-item" src="Certificates/Google Data Science Certificate.png" alt="img-3" />
+        </a>
+        <a href="https://www.credly.com/badges/65e5824d-cea3-449b-9ab5-b9bba54251cc/linked_in_profile" class="href">
+          <img class="image-item" src="Certificates/AWS - Cloud Foundation.png" alt="img-4" />
+        </a>
+        <a href="https://www.credly.com/badges/ce9346ad-580a-4423-86ec-86dac29bc3ee/linked_in_profile" class="href">
+          <img class="image-item" src="Certificates/AWS - ML Foundation.png" alt="img-5" />
+        </a>
+        <a href="https://drive.google.com/file/d/12FrKHQJ-oF8oMTHupV3832XUgA2-WJLB/view?usp=drivesdk" class="href">
+          <img class="image-item" src="Certificates/Google - Digital Marketing.png" alt="img-6" />
+        </a>
+        <a href="https://drive.google.com/file/d/1vfo_ii2L1KCG7LmgDOsaFhB8lCs98hOf/view?usp=sharing" class="href">
+          <img class="image-item" src="Certificates/CCNA 1 Certificate.png" alt="img-7" />
+        </a>
+        <a href="https://drive.google.com/file/d/1wJ6ZKZQShq06vE8zpkznV84H_2jyoZNo/view?usp=sharing" class="href">
+          <img class="image-item" src="Certificates/CCNA 2 Certificate.png" alt="img-8" />
+        </a>
+        <a href="https://drive.google.com/file/d/1rLlaQwZCvGA5GYwxIypibwrAe8Snk3Lk/view?usp=sharing" class="href">
+          <img class="image-item" src="Certificates/Introduction to IOT.png" alt="img-9" />
+        </a>
+        <a href="https://drive.google.com/file/d/1yEmg7afp0yCoC7ls0p5m4Zd0Dhi5q6oK/view?usp=sharing" class="href">
+          <img class="image-item" src="Certificates/C++ Certificate.png" alt="img-10" />
+        </a>
+      </ul>
+      <button id="next-slide" class="slide-button material-symbols-rounded">→
+      </button>
+    </div>
+    <div class="slider-scrollbar">
+      <div class="scrollbar-track">
+        <div class="scrollbar-thumb"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- /* ........................................................... */
+  /* ........................................................... */
+  /* ........................................................... */ -->
+
+
+  <!-- ################## -->
+  <!-- Contact -->
+  <!-- ################## -->
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:vivinthomas02@gmail.com">vivinthomas02@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/vivinthomas02/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Vivin Thomas. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
