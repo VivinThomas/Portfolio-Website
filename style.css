@@ -710,4 +710,22 @@ footer p {
   position: fixed;
   z-index: 100;
 }
+.hamburger-icon span{
+  background-color: white;
+}
+.menu-links.open{
+  background-color: rgb(17,17,17);
+  padding: 20px;
+  cursor: pointer;
+
+}
+.menu-links a{
+  color: white;
+}
+.menu-links a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
 }
