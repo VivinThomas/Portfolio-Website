@@ -1,7 +1,7 @@
 /* PRELOADER */
 
 #preloader{
-  background: rgb(255, 255, 255) url(assets/V\ video\ preloader.mp4) no-repeat center center;
+  background: rgb(255, 255, 255) url(assets/V\ videopreloader\ .gif) no-repeat center center;
   background-size: 28%;
   height: 100vh;
   width: 100%;
@@ -703,7 +703,7 @@ footer p {
   background: white;
 }
 #preloader{
-  background: rgb(0, 0, 0) url(assets/V\ video\ preloader\ 2.mp4) no-repeat center center;
+  background: rgb(0, 0, 0) url(assets/Vvideopreloader2.gif) no-repeat center center;
   background-size: 28%;
   height: 100vh;
   width: 100%;
